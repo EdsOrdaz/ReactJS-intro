@@ -31,15 +31,6 @@ function App() {
       <Formulario2 />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
     </>
   );
