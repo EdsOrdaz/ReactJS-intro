@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  react-app:
+    container_name: react_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - react:/usr/src/app
+    ports:
+      - "3000:3000"
+    tty: true
+    restart: unless-stopped
+volumes:
+  react:
+    external: false
+    
+
+# volumes:
+#   local_pgdata:
+#   pgadmin-data:
